@@ -4,10 +4,37 @@ body {
 
 header {
     background-color: blue;
-    height:200px
+    height:200px;
 }
 
 .welcome-header {
     color: red;
     margin:0;
 }
+
+
+.nav-list {
+    background-color: #333333;
+    overflow: hidden ;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    text-align: center;
+    list-style-type: none;
+    float: left;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+
+.nav-list li a:hover {
+    background-color: #000000;
+}
+
+
